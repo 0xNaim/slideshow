@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Slide Show Design</title>
+    <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+    <div class="slideContainer">
+
+        <!-- 1st slide -->
+        <div class="sliders fade">
+            <div class="text">1 / 6</div>
+            <div class="sliderImg">
+                <img src="Images/pexels-photo-1.jpeg" alt="Images">
+             </div>
+            <div class="sliderCaption">Caption text one</div>
+        </div>
+
+        <!-- 2nd slide -->
+        <div class="sliders fade">
+            <div class="text">2 / 6</div>
+            <div class="sliderImg">
+                <img src="Images/pexels-photo-2.jpeg" alt="Images">
+             </div>
+            <div class="sliderCaption">Caption text two</div>
+        </div>
+
+        <!-- 3rd slide -->
+        <div class="sliders fade">
+            <div class="text">3 / 6</div>
+            <div class="sliderImg">
+                <img src="Images/pexels-photo-3.jpeg" alt="Images">
+             </div>
+            <div class="sliderCaption">Caption text three</div>
+        </div>
+
+        <!-- 4th slide -->
+        <div class="sliders fade">
+            <div class="text">4 / 6</div>
+            <div class="sliderImg">
+                <img src="Images/pexels-photo-4.jpeg" alt="Images">
+             </div>
+            <div class="sliderCaption">Caption text four</div>
+        </div>
+
+        <!-- 5th slide -->
+        <div class="sliders fade">
+            <div class="text">5 / 6</div>
+            <div class="sliderImg">
+                <img src="Images/pexels-photo-5.jpeg" alt="Images">
+             </div>
+            <div class="sliderCaption">Caption text five</div>
+        </div>
+
+        <!-- 6th slide -->
+        <div class="sliders fade">
+            <div class="text">6 / 6</div>
+            <div class="sliderImg">
+                <img src="Images/pexels-photo-6.jpeg" alt="Images">
+             </div>
+            <div class="sliderCaption">Caption text six</div>
+        </div>
+
+        <!-- next & prev buttons -->
+        <a href="#" class="prev" onclick="plusIndex(-1)"><span>&#10094;</span></a>
+        <a href="#" class="next" onclick="plusIndex(1)"><span>&#10095;</span></a>
+
+        <!-- for dots buttons -->
+        <div style="text-align: center;" class="dotsMain">
+            <span class="dots" onclick="currentSlide(1)"></span class="dots">
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dots" onclick="currentSlide(4)"></span>
+            <span class="dots" onclick="currentSlide(5)"></span>
+            <span class="dots" onclick="currentSlide(6)"></span>
+        </div>
+
+    </div>
+    <script src="slide.js"></script rel="text/stylesheet">
+</body>
+</html>
